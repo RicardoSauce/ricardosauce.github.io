@@ -96,9 +96,9 @@ input, select, textarea {
 	*, *:before, *:after {
 		box-sizing: inherit;
 	}
-
+	/* Body background of the webpage */
 	body {
-		background: #312450;
+		background: #44b195;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
