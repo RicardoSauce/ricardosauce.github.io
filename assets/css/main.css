@@ -98,7 +98,7 @@ input, select, textarea {
 	}
 	/* Body background of the webpage */
 	body {
-		background: #44b195;
+		background: #adbed2;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -174,8 +174,14 @@ input, select, textarea {
 		margin: 0 0 2em 0;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
-		color: #ffffff;
+	h1{
+		color: #312450;
+		font-weight: bold;
+		line-height: 1.5;
+		margin: 0 0 0.5em 0;
+	}
+	h2, h3, h4, h5, h6 {
+		color: #000000;
 		font-weight: bold;
 		line-height: 1.5;
 		margin: 0 0 0.5em 0;
@@ -3372,7 +3378,7 @@ input, select, textarea {
 		display: flex;
 		background-color: #5e42a6;
 		cursor: default;
-		padding: 1.75em 2em;
+		padding: 1.0em 1em;
 	}
 
 		#header > .title {
@@ -3397,10 +3403,10 @@ input, select, textarea {
 			}
 
 				#header > nav > ul > li {
-					display: inline-block;
-					margin-left: 1.75em;
-					padding: 0;
-					vertical-align: middle;
+					display: inline-flex;
+					margin-left: 1.0em;
+					padding: 1em;
+					vertical-align: text-bottom;
 				}
 
 					#header > nav > ul > li:first-child {
@@ -3411,7 +3417,7 @@ input, select, textarea {
 						border: 0;
 						color: rgba(255, 255, 255, 0.35);
 						display: inline-block;
-						font-size: 0.6em;
+						font-size: 0.9em;
 						font-weight: bold;
 						letter-spacing: 0.25em;
 						text-transform: uppercase;
@@ -3452,7 +3458,7 @@ input, select, textarea {
 				}
 
 					#header > nav > ul > li {
-						margin-left: 1.5em;
+						margin-left: 1.0em;
 					}
 
 						#header > nav > ul > li a {
@@ -3520,6 +3526,10 @@ input, select, textarea {
 		margin: 0 auto;
 	}
 
+
+figcaption {
+	text-align: right;
+}
 /* Sidebar */
 
 	#sidebar {
